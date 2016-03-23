@@ -1,0 +1,14 @@
+ time step = 1.0000000000e-02
+ number of time steps = 2000
+
+ delta_H_EE = 1.3384377269e+13
+ delta_H2_EE = 1.3384377148e+13
+ delta_H4_EE = -1.0857370519e+19
+
+ delta_H_SE = 1.3987285738e-01
+ delta_H2_SE = 1.4301546745e-01
+ delta_H4_SE = 1.4303816387e-01
+
+ delta_H_V = 5.6958804150e-03
+ delta_H2_V = -6.6806205222e-05
+ delta_H4_V = -4.9364067536e-05

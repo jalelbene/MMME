@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		630A58F2F8FB494185D06B27 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 73138FEDD20545D4B8F2B219 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				932FF1BAAE4F43A1B7D969A4 /* CMake Rules */,
+			);
+			dependencies = (
+				35D974E911C44BA9BDB1C09A /* PBXTargetDependency */,
+				62534D6D016C477F84938A31 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E315E61CEAFF4FD99AF64FD0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B45CA96AEFE046BF9483ABD9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				75335332348E4BF296EB468D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7FA087D0A8A04BF6A6DDF2CB /* kepler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C289059DAFD946238E0019E2 /* kepler.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CEB5787B266A41C7B069CFB8 /* matrice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74B8627A3A7943C482D0A1A4 /* matrice.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4339488C26C4907BE4AD0B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4C19B2709944599694DF83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CBA3E63857F440B9078B4AB;
+			remoteInfo = Kepler;
+		};
+		C1ACE87F39F94DEBB53BB908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4C19B2709944599694DF83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E315E61CEAFF4FD99AF64FD0;
+			remoteInfo = ZERO_CHECK;
+		};
+		D95F9A3525B642F48913B1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4C19B2709944599694DF83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E315E61CEAFF4FD99AF64FD0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CA5D54F20C34FBC93690C77 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		37FF554ADEDA459299217EBD /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6F9BB17A460849EE8A2A0BDC /* Kepler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Kepler; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B8627A3A7943C482D0A1A4 /* matrice.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = matrice.cpp; sourceTree = SOURCE_ROOT; };
+		8E414CB9BCB34C299F8FB524 /* matrice.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = matrice.hpp; sourceTree = SOURCE_ROOT; };
+		C289059DAFD946238E0019E2 /* kepler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = kepler.cpp; sourceTree = SOURCE_ROOT; };
+		E344AE0B2C984D79A6F489B3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		003EBB11B630492581B5A3FB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0D4C33B5E4234006817E4977 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				9B0A6CACD6E94602ADDF7A39 /* CMake Rules */,
+				E344AE0B2C984D79A6F489B3 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		3A77CE44E7894F3C9735CAAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4F050572801B481BA0C86B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F9BB17A460849EE8A2A0BDC /* Kepler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F450048BD214E2DB9EE814D /* Kepler */ = {
+			isa = PBXGroup;
+			children = (
+				6717994AB62D421B8E62D7ED /* Source Files */,
+				8C6D495A6AD24940B3EB2733 /* Header Files */,
+				37FF554ADEDA459299217EBD /* CMakeLists.txt */,
+			);
+			name = Kepler;
+			sourceTree = "<group>";
+		};
+		6717994AB62D421B8E62D7ED /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C289059DAFD946238E0019E2 /* kepler.cpp */,
+				74B8627A3A7943C482D0A1A4 /* matrice.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		87C6466B32934F3B951CB5A0 = {
+			isa = PBXGroup;
+			children = (
+				995183820F324A4DAEDDA463 /* Sources */,
+				3A77CE44E7894F3C9735CAAF /* Resources */,
+				4F050572801B481BA0C86B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C6D495A6AD24940B3EB2733 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E414CB9BCB34C299F8FB524 /* matrice.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		995183820F324A4DAEDDA463 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4F450048BD214E2DB9EE814D /* Kepler */,
+				B0E8906F1DA541D29C074CCB /* ALL_BUILD */,
+				0D4C33B5E4234006817E4977 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		9B0A6CACD6E94602ADDF7A39 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B0E8906F1DA541D29C074CCB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				003EBB11B630492581B5A3FB /* CMake Rules */,
+				0CA5D54F20C34FBC93690C77 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CBA3E63857F440B9078B4AB /* Kepler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38ED69128FE14C13A55140B4 /* Build configuration list for PBXNativeTarget "Kepler" */;
+			buildPhases = (
+				7307C88FB02A4CA79560C380 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47438A1B040C4892B50185E9 /* PBXTargetDependency */,
+			);
+			name = Kepler;
+			productName = Kepler;
+			productReference = 6F9BB17A460849EE8A2A0BDC /* Kepler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F4C19B2709944599694DF83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = C7005323626544AA821D1E42 /* Build configuration list for PBXProject "Kepler_1part" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87C6466B32934F3B951CB5A0;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				630A58F2F8FB494185D06B27 /* ALL_BUILD */,
+				0CBA3E63857F440B9078B4AB /* Kepler */,
+				E315E61CEAFF4FD99AF64FD0 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75335332348E4BF296EB468D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build -f /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		932FF1BAAE4F43A1B7D969A4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build -f /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7307C88FB02A4CA79560C380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA087D0A8A04BF6A6DDF2CB /* kepler.cpp in Sources */,
+				CEB5787B266A41C7B069CFB8 /* matrice.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35D974E911C44BA9BDB1C09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E315E61CEAFF4FD99AF64FD0 /* ZERO_CHECK */;
+			targetProxy = C1ACE87F39F94DEBB53BB908 /* PBXContainerItemProxy */;
+		};
+		47438A1B040C4892B50185E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E315E61CEAFF4FD99AF64FD0 /* ZERO_CHECK */;
+			targetProxy = D95F9A3525B642F48913B1E9 /* PBXContainerItemProxy */;
+		};
+		62534D6D016C477F84938A31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CBA3E63857F440B9078B4AB /* Kepler */;
+			targetProxy = A4339488C26C4907BE4AD0B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B741DFCA7747548DF848EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_OPENGL_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-DSRCDIR=\"/Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake\"",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-L\"/usr/local/Imagine++/lib\"",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lImagineGraphics",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/QtOpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/QtWidgets,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/QtGui,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/QtCore,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Kepler;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		0631AC5373094272A3B3E59D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build/build;
+			};
+			name = MinSizeRel;
+		};
+		0C2F6ECD40B04FC8B16832B4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		100647E5C9594DA9923623F4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		178579578A3C478B9C1A6DE8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		1CDAB4A80B3A4ACB90EA1110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					QT_CORE_LIB,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_OPENGL_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DSRCDIR=\"/Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake\"",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-L\"/usr/local/Imagine++/lib\"",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lImagineGraphics",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/QtOpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/QtWidgets,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/QtGui,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/QtCore,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Kepler;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		2DDD892AF08A477E8FF22D58 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_OPENGL_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-DSRCDIR=\"/Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake\"",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-L\"/usr/local/Imagine++/lib\"",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lImagineGraphics",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/QtOpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/QtWidgets,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/QtGui,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/QtCore,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Kepler;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		372DC2501F8F4752BD107885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		51965DA40CF54C048104CF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		67DE709AD049428F92B89C9D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_OPENGL_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-DSRCDIR=\"/Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake\"",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-L\"/usr/local/Imagine++/lib\"",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lImagineGraphics",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/QtOpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/QtWidgets,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/QtGui,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/QtCore,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Kepler;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		812285030E75423BB6CE81C2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		B630A42081944914BE640724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		C034F8E7296246208C0D9A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		C989F842AAAA46F5851C6C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build/build;
+			};
+			name = Debug;
+		};
+		D7BCA0E6D2BF46559D59227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build/build;
+			};
+			name = Release;
+		};
+		F428C924CF8841EC87AC58B7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Imagine++/include",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtCore.framework/Headers,
+					"/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/mkspecs/macx-clang",
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtGui.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/jalelbenerrami/Qt5.5.0/5.5/clang_64/lib/QtOpenGL.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jalelbenerrami/Documents/enpc/imi/MMME/TP_edo/kepler_1part/CMake/Build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38ED69128FE14C13A55140B4 /* Build configuration list for PBXNativeTarget "Kepler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDAB4A80B3A4ACB90EA1110 /* Debug */,
+				01B741DFCA7747548DF848EC /* Release */,
+				67DE709AD049428F92B89C9D /* MinSizeRel */,
+				2DDD892AF08A477E8FF22D58 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73138FEDD20545D4B8F2B219 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C034F8E7296246208C0D9A9F /* Debug */,
+				372DC2501F8F4752BD107885 /* Release */,
+				100647E5C9594DA9923623F4 /* MinSizeRel */,
+				178579578A3C478B9C1A6DE8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B45CA96AEFE046BF9483ABD9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51965DA40CF54C048104CF96 /* Debug */,
+				B630A42081944914BE640724 /* Release */,
+				0C2F6ECD40B04FC8B16832B4 /* MinSizeRel */,
+				F428C924CF8841EC87AC58B7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7005323626544AA821D1E42 /* Build configuration list for PBXProject "Kepler_1part" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C989F842AAAA46F5851C6C52 /* Debug */,
+				D7BCA0E6D2BF46559D59227A /* Release */,
+				0631AC5373094272A3B3E59D /* MinSizeRel */,
+				812285030E75423BB6CE81C2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F4C19B2709944599694DF83 /* Project object */;
+}
