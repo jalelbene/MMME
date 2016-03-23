@@ -155,8 +155,8 @@ int random(const int &a){
 int main () 
 {
   
-  Window w_q = openWindow(700,1000);
-  Window w_H = openWindow(700,1000);
+  Window w_q = openWindow(1000,700);
+  Window w_H = openWindow(1000,700);
 
   Particule X,Z;
     
